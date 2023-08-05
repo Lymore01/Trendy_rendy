@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="cartpage.css">
+    <script src="cartpage.js" async></script>
+
+<body>
+    <div class="cart-items">
+        <div class="products-cart">
+            <div class="item_img">
+                <img src="images\banner.jpg">
+               </div>
+               <div class="item_name">
+                <p>Jordans air retro</p>
+                </div>
+                <div class="item_price">
+                <P>$400.00</P>
+                </div>
+                 <div class="item_del">
+                <button type="button" class="btn-danger">remove</button>
+                </div>
+        </div>
+        <div class="products-cart">
+            <div class="item_img">
+                <img src="images\banner2.jpg">
+               </div>
+               <div class="item_name">
+                <p>Air Jordan 1 </p>
+                </div>
+                <div class="item_price">
+                <P>$300.00</P>
+                </div>
+                 <div class="item_del">
+                <button type="button" class="btn-danger">remove</button>
+                </div>
+        </div>
+    </div>
+    
+    <div class="checkout-items">
+        <div class="descrip">
+            <h2>payment info.</h2>
+            <form action="contact.ejs" method="post">
+            <div class="payment-method">
+                <p>payment method</p>
+                <div class="mpesa">
+                    <input type="radio" name="mpesa-input">
+                    <label for="mpesa-input" class="mpesa-label">Mpesa</label>
+                </div>
+                <div class="credit-card">
+                    <input type="radio" name="credit-card-input" required>
+                    <label for="credit-card-input" class="credit-card-label">credit card</label>
+                </div>
+            </div>
+            <div class="payment-method-name">
+                <div class="payment-name">
+                    <label for="credit-card-input" class="payment-name-label">Mpesa Name</label>
+                    <input type="text"  class="payment-name-input" required>
+                </div>
+               
+            </div>
+            <div class="payment-method-card-number">
+                <div class="payment-name">
+                    <label for="credit-card-input" class="payment-name-label">card number/mpesa name</label>
+                    <input type="number"  class="payment-name-input" required>
+                </div>
+            </div>
+            <div class="payment-method-card-expire">
+                <div class="payment-name">
+                    <label for="credit-card-input" class="payment-name-label">card expiration date</label>
+                    <input type="date" class="payment-name-input" required>
+                </div>
+            </div>
+            <div class="payment-method-checkout">
+                <button class="checkout-btn" type="submit">check out</button>
+            </div>
+        </form>
+        </div>
+    </div>
+    <a href="/"><h1 class="des-close">X</h1></a>
+</body>
+</html>
