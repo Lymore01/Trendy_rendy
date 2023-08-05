@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.view-products{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    margin: 0;
+    display: block;
+}
+
+.image-clicked{
+    height: 100vh;
+    width: 50%;
+}
+.img-clicked{
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.image-clicked-des{
+    height: 100vh;
+    width: 50%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.quantity{
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+    outline: none;
+    color: white;
+    background-color: black;
+    border-style: none;
+    border: 2px solid grey;
+}
+.shoe-number{
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+    outline: none;
+    color: white;
+    background-color: black;
+    border-style: none;
+    border: 2px solid grey;
+}
+.des-close{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+.des-close:hover{
+    color: grey;
+}
+.description{
+    color: white;
+    text-align: start;
+    text-indent: initial;
+    padding: 25% 20%;
+    text-transform: capitalize;
+}
+.add-cart-button{
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    width: 130px;
+    border-style: none;
+    cursor: pointer;
+    height: 30px;
+    margin-top: 10px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.add-cart-button:hover{
+    color: white;
+    background:linear-gradient(45deg,black,white);
+    transition: 1 ease-in-out;
+}

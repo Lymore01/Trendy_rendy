@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="contact.js"></script>
+</head>
+<body>
+    <div class="contact-left">
+        <div class="contact-des">
+            <div class="description">
+                <p style="color: grey;">hi,there</p>
+                <h1>dont be shy</h1>
+                <h2 style="margin-top: 10px;">feel free to get in touch with us,<br>we are always open
+                to fulfil your shopping needs.</h2>
+            </div>
+            
+        </div>
+        <div class="other-contacts">
+            <h1 class="socials">social media</h1>
+            <h1 class="socials1">social media</h1>
+            <a href="www.whatsapp.com"><img src="images\icons8-whatsapp-50 (1).png" class="whatsapp-icon"></a>
+            <a href="https://web.facebook.com/?_rdc=1&_rdr"><img src="images\icons8-facebook-50.png" class="facebook-icon"></a>
+            <a href="www.instagram.com"><img src="images\icons8-instagram-50.png" class="instagram-icon"></a>
+            <a href="www.tiktok.com"><img src="images\icons8-tiktok-50.png" class="tiktok-icon"></a>
+        </div>
+    </div>
+    <div class="contact-right">
+        <div class="conta-form">
+            <form action="./contact" method="post" class="contact-form">
+                <p>hello <% locals.text || "default" %></p>
+                <input type="text" placeholder="Username" required class="contact-name-box" name="username" autocomplete="off" >
+                <input type="email" placeholder="enter a valid email address" required class="contact-pass-box" name="email" autocomplete="off">
+                <input type="text" placeholder="Enter your message" class="message-box" required name="message" autocomplete="off">
+                <div class="terms-of-service">
+                    <input type="checkbox" name="terms">
+                    <label for="terms" style="color: white; text-transform: capitalize;">i accept the terms of service</label>
+                </div>
+           
+                <button type="submit" class="submit">submit</button>
+            </form>
+        </div>
+     
+        <a href="/"><div class="close-btn">
+            X
+        </div></a>
+    </div>
+</body>
+</html>

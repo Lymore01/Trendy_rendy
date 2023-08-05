@@ -1,0 +1,265 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+.cart-items{
+    height: 100%;
+    width: 60%;
+    background-color: white;
+}
+
+.checkout-items{
+    height: 100%;
+    width: 40%;
+    background-color: black;
+}
+.description{
+    color: black;
+    text-align: start;
+    text-indent: initial;
+    text-transform: capitalize;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.descrip{
+    color: white;
+    text-align: start;
+    text-transform: capitalize;
+    margin-left: 40px;
+    margin-top: 20px; 
+}
+.payment-method{
+    height: 100px;
+    width: 100%;
+    margin-top: 20px;
+}
+.payment-method p{
+    color: grey;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.mpesa{
+    display: flex;
+    flex-direction:row;
+    gap: 10px;
+}
+.mpesa-label{
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.credit-card{
+    display: flex;
+    flex-direction:row;
+    gap: 10px;
+}
+.credit-card-label{
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+
+.payment-method-name{
+    height: 100px;
+    width: 100%;
+    margin-top: 20px;
+}
+.payment-name{
+    display: flex;
+    flex-direction: column;
+}
+.payment-name-label{
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    color: grey;
+}
+.payment-name-input{
+    outline: none;
+    text-align: start;
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
+    height: 30px;
+    width: 80%;
+    padding-left: 10px;
+}
+.payment-method-card-number{
+    height: 100px;
+    width: 100%;
+    margin-top: 20px;
+}
+.payment-method-card-expire{
+    height: 100px;
+    width: 100%;
+    margin-top: 20px;
+}
+.mpesa-input{
+    border-bottom:2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    color: white;
+}
+.credit-card-input{
+    border-bottom:2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    color: white;
+}
+.payment-name-input{
+    border-bottom:2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    color: white;
+}
+.checkout-btn{
+    color: black;
+    background-color: white;
+    height: 30px;
+    width: 80%;
+    margin-top: 20px;
+    outline: none;
+    border-style: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.des-close{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* cart items  */
+.product1{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   background-color: red;
+   height: 100px;
+}
+.product{
+    background-color: orange;
+    height: 100%;
+    width: 25%;
+}
+.size{
+    background-color: black;
+    height: 100%;
+    width: 25%;
+    margin-top: 30px;
+}
+.cart-item-size{
+    margin-top: 30px;
+}
+.quantity{
+    background-color: blue;
+    height: 100%;
+    width: 25%;
+    margin-top: 30px;
+}
+.total-price{
+    background-color: green;
+    height: 100%;
+    width: 25%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.cart-image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.products-cart{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+/* carts */
+  
+#search_btn:hover,#add:hover,#remove:hover{
+    background-color: orange;
+    transition: .3;
+}
+.items{
+    background-color: white;
+    width: 320px;
+    height: 20%;
+    display: flex;
+}
+#cartItem{
+    font-weight: 800;
+}
+.item_img{
+    width: 25%;
+    height: 100%;
+    border-radius: 50%;
+}
+.item_img img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    left: 0;
+}
+.item_name{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+}
+.item_name p{
+    margin-top: 20px;
+    color: black;
+    font-weight: 700;
+}
+.item_price{
+    width: 25%;
+    height: 100%;
+}
+.item_price p{
+    margin-top: 20px;
+    color: red;
+    font-weight: 800;
+}
+.item_del{
+    width: 25%;
+    height: 100%;
+}
+.item_del button{
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    float: left;
+    height: 30px;
+    text-transform: uppercase;
+    left: 10px;
+    width: 65px;
+    border-radius: 5px;
+    border-style: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
