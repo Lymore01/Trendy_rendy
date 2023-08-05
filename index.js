@@ -377,7 +377,7 @@ function UpdateCartTotal() {
               <a href="#"><button type="button" class="add-cart-button">add to cart</button></a>
               <p id="one" class="image-clicked-one">TOTAL <span>${item_price}</span></p>
           </div>
-          <a href="/"><h1 class="des-close" style="color:white;">X</h1></a>
+          <a href="index.html"><h1 class="des-close" style="color:white;">X</h1></a>
       </div>
     `
       cartRow.innerHTML=cartRowContents
