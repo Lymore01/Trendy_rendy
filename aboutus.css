@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+.about_content{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    text-align: start;
+    box-shadow: 0px 0px 7px grey;
+    line-height: 40px;
+}

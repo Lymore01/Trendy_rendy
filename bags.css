@@ -1,0 +1,88 @@
+/* *{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-snap-type: y mandatory;
+}
+div{
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+.header{
+    height: 13%;
+    width: 100%;
+    position: fixed;
+}
+.search-box{
+    background-color: black;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    color: white;
+}
+.search-input-box{
+    width: 100%;
+    height: 30px;
+    text-align: start;
+    padding-left: 30px;
+    text-transform: capitalize;
+    border-style: none;
+    border: 1px solid grey;
+    background-color: transparent;
+    border-radius: 99em;
+    outline: none;
+    color: white;
+}
+.products{
+    height: 50%;
+    width: 100%;
+}
+
+.title{
+    background-color:white;
+    height: 30%;
+    width: 98%;
+    margin: 0 auto;
+    padding:50px 0px;
+}
+.title h3{
+    color:black;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+}
+.product-thumbnails{
+    height: 100%;
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 10px;
+}
+.product-banner{
+    height: 90%;
+    width: 19%;
+    background:WHITE;
+    cursor: pointer;
+    box-shadow: 0px 0px 7px grey;
+}
+.product-banner p:nth-child(2){
+    font-weight: 500;
+    color: red;
+    text-transform: capitalize;
+}
+.product-image{
+    height:70%;
+    width: 100%;
+}
+.one{
+    margin-top: 10px;
+    font-weight: bold;
+} */

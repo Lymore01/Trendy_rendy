@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    display: flex;
+}
+.image{
+    height: 100vh;
+    width: 50%;
+    background-color: black;
+}
+.form{
+    height: 100vh;
+    width: 50%;
+    background-color: white;
+    
+}
+.img-clicked{
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.log-form{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 70%;
+    margin: 25% auto;
+    justify-content: space-between;
+    gap: 30px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    display: none;
+    /* animation-name: login;
+    animation-duration: 1s; */
+    
+}
+/* @keyframes login {
+    from{
+        margin-right: -70%;
+    }
+    to{
+
+    }
+} */
+.reg-form{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: black;
+    width: 70%;
+    margin: 25% auto;
+    gap: 30px;
+    padding-bottom: 10px;
+    display: none;
+    padding-left: 50px;
+}
+.username-box{
+    height: 30px;
+    width: 350PX;
+    border-bottom: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: start;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 20px auto;
+}
+.Password-box{
+    height: 30px;
+    width: 350PX;
+    border-bottom: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: start;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 20px auto;
+}
+.login-btn{
+    height: 30px;
+    width: 350PX;
+    margin: 0 auto;
+    background-color:transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 99em;
+    cursor: pointer;
+
+}
+.description{
+    color: white;
+    text-align: start;
+    text-indent: initial;
+    padding: 25% 20%;
+    text-transform: capitalize;
+}
+.form-btn{
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.login-form-btn{
+    height: 30px;
+    width: 100px;
+    margin-right: 20px;
+    background-color: white;
+    color: black;
+    border-style: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.register-form-btn{
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    border-style: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.register-form-btn:hover,.login-form-btn:hover{
+    background: linear-gradient(45deg,white,grey);
+}
+.des-close{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: black;
+    cursor: pointer;
+    font-size: 18px;
+}
+
